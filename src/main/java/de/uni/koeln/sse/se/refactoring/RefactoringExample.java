@@ -18,7 +18,7 @@ public class RefactoringExample {
 
         // calculate outstanding
         while (e.hasMoreElements()) {
-            Order each = (Order) e.nextElement();
+            Order each = e.nextElement();
             outstanding += each.getAmount();
         }
 
