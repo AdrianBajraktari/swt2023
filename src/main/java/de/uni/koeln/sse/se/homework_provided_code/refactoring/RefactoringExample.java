@@ -1,4 +1,4 @@
-package de.uni.koeln.sse.se.refactoring;
+package de.uni.koeln.sse.se.homework_provided_code.refactoring;
 
 import java.util.Enumeration;
 import java.util.Vector;

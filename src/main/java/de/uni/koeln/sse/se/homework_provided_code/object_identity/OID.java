@@ -1,4 +1,4 @@
-package de.uni.koeln.sse.se.object_identity;
+package de.uni.koeln.sse.se.homework_provided_code.object_identity;
 
 import java.util.Arrays;
 

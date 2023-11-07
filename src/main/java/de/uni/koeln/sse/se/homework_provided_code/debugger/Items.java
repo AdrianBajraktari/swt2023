@@ -1,4 +1,4 @@
-package de.uni.koeln.sse.se.debugger;
+package de.uni.koeln.sse.se.homework_provided_code.debugger;
 
 import java.util.HashMap;
 

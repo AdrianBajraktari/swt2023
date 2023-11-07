@@ -35,7 +35,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>de.uni.koeln.sse.se.object_identity.OID</mainClass>
+                            <mainClass>de.uni.koeln.sse.se.homework_provided_code.object_identity.OID</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
