@@ -7,6 +7,7 @@ public class ProfCreateCode {
         Person myProf = new Professor("Andreas", "Vogelsang",
                 "Software & Systems Engineering", 39,
                 new ArrayList<Lecture>(),
+                new ArrayList<Publication>(),
                 new ArrayList<Student>());
     }
 
@@ -15,9 +16,10 @@ public class ProfCreateCode {
 
     private static class Professor extends Person {
 
-        public Professor(String andreas, String vogelsang, String s, int i, ArrayList<Lecture> lectures, ArrayList<Student> students) {
+        public Professor(String andreas, String vogelsang, String s, int i, ArrayList<Lecture> lectures, ArrayList<Publication> publications, ArrayList<Student> students) {
         }
     }
     private static class Lecture {}
     private static class Person {}
+    private static class Publication {}
 }
