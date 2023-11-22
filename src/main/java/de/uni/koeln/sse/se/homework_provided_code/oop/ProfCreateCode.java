@@ -15,6 +15,7 @@ public class ProfCreateCode {
     /** The below classes are only stubs so that the above code is not marked as erroneous. **/
 
     private static class Professor extends Person {
+        Thread t;
 
         public Professor(String andreas, String vogelsang, String s, int i, ArrayList<Lecture> lectures, ArrayList<Publication> publications, ArrayList<Student> students) {
         }
