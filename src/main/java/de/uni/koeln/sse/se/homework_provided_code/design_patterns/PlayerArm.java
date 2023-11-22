@@ -1,6 +1,6 @@
 package de.uni.koeln.sse.se.homework_provided_code.design_patterns;
 
-public class PlayerArm implements PlayerComponent {
+public final class PlayerArm implements PlayerComponent {
     private float rx, ry, rz;
     private float x, y, z;
 

@@ -1,6 +1,6 @@
 package de.uni.koeln.sse.se.homework_provided_code.design_patterns;
 
-public class PlayerHead implements PlayerComponent {
+public final class PlayerHead implements PlayerComponent {
     private float rx, ry, rz;
     private float x, y, z;
 
