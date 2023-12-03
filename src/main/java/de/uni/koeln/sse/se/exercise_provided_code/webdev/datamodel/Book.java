@@ -2,16 +2,16 @@ package de.uni.koeln.sse.se.exercise_provided_code.webdev.datamodel;
 
 public class Book {
 	private Integer id;
-	private String name;
+	private String bookName;
 	private String author;
-	private Integer year;
-	
+	private Integer yearOfPublication;
+
 	public Book() {}
 
-	public Book(String name, String author, Integer year) {
-		this.name = name;
+	public Book(String bookName, String author, Integer yearOfPublication) {
+		this.bookName = bookName;
 		this.author = author;
-		this.year = year;
+		this.yearOfPublication = yearOfPublication;
 	}
 
 	public Integer getId() {
@@ -22,12 +22,12 @@ public class Book {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getBookName() {
+		return bookName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setBookName(String name) {
+		this.bookName = name;
 	}
 
 	public String getAuthor() {
@@ -38,11 +38,11 @@ public class Book {
 		this.author = author;
 	}
 
-	public Integer getYear() {
-		return year;
+	public Integer getYearOfPublication() {
+		return yearOfPublication;
 	}
 
-	public void setYear(Integer year) {
-		this.year = year;
+	public void setYearOfPublication(Integer year) {
+		this.yearOfPublication = year;
 	}
 }
